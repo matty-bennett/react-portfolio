@@ -36,6 +36,10 @@ body {
   text-decoration: none;
 }
 
+.nav-text:hover {
+  color: var(--gainsboro);
+}
+
 h3 {
   text-align: center;
 }
@@ -67,6 +71,16 @@ h3 {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.footer {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  background-color: var(--ming);
+}
+
+.git-icon {
+  color: var(--jet);
 }
 
 
